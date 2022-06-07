@@ -63,6 +63,10 @@ public class SlotCatenaDiMontaggio {
 		this.automobili = automobili;
 	}
 
+	public void addToAutomobili(Automobile automobile) {
+		this.automobili.add(automobile);
+	}
+
 	@Override
 	public String toString() {
 		return "SlotCatenaDiMontaggio [id=" + id + ", brand=" + brand + ", country=" + country + "]";
