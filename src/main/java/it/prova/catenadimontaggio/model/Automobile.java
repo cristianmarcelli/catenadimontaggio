@@ -12,4 +12,60 @@ public class Automobile {
 
 	private Date dataProduzione;
 
+	public Automobile() {
+	}
+
+	public Automobile(Long id, String modello, String telaio, Date dataProduzione) {
+		super();
+		this.id = id;
+		this.modello = modello;
+		this.telaio = telaio;
+		this.dataProduzione = dataProduzione;
+	}
+
+	public Automobile(Long id, String modello, String telaio) {
+		super();
+		this.id = id;
+		this.modello = modello;
+		this.telaio = telaio;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getModello() {
+		return modello;
+	}
+
+	public void setModello(String modello) {
+		this.modello = modello;
+	}
+
+	public String getTelaio() {
+		return telaio;
+	}
+
+	public void setTelaio(String telaio) {
+		this.telaio = telaio;
+	}
+
+	public Date getDataProduzione() {
+		return dataProduzione;
+	}
+
+	public void setDataProduzione(Date dataProduzione) {
+		this.dataProduzione = dataProduzione;
+	}
+
+	@Override
+	public String toString() {
+		return "Automobile [id=" + id + ", modello=" + modello + ", telaio=" + telaio + ", dataProduzione="
+				+ dataProduzione + "]";
+	}
+
 }

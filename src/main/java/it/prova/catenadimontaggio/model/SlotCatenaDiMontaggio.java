@@ -13,4 +13,59 @@ public class SlotCatenaDiMontaggio {
 
 	private List<Automobile> automobili = new ArrayList<Automobile>();
 
+	public SlotCatenaDiMontaggio() {
+	}
+
+	public SlotCatenaDiMontaggio(Long id, String brand, String country, List<Automobile> automobili) {
+		super();
+		this.id = id;
+		this.brand = brand;
+		this.country = country;
+		this.automobili = automobili;
+	}
+
+	public SlotCatenaDiMontaggio(Long id, String brand, String country) {
+		super();
+		this.id = id;
+		this.brand = brand;
+		this.country = country;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public List<Automobile> getAutomobili() {
+		return automobili;
+	}
+
+	public void setAutomobili(List<Automobile> automobili) {
+		this.automobili = automobili;
+	}
+
+	@Override
+	public String toString() {
+		return "SlotCatenaDiMontaggio [id=" + id + ", brand=" + brand + ", country=" + country + "]";
+	}
+
 }
