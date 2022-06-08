@@ -22,7 +22,7 @@ public class DBMock {
 			Automobile automobile2 = new Automobile(20L, "modello2", "telaio2",
 					new SimpleDateFormat("dd/MM/yyyy").parse("20/12/2012"));
 			slotCatenaDiMontaggio1.addToAutomobili(automobile2);
-
+			
 			
 			SlotCatenaDiMontaggio slotCatenaDiMontaggio2 = new SlotCatenaDiMontaggio(2L, "Berrari", "Italy");
 			Automobile automobile3 = new Automobile(54L, "modello3", "telaio3",
@@ -31,7 +31,7 @@ public class DBMock {
 			Automobile automobile4 = new Automobile(23L, "modello4", "telaio4",
 					new SimpleDateFormat("dd/MM/yyyy").parse("20/05/2020"));
 			slotCatenaDiMontaggio2.addToAutomobili(automobile4);
-
+			
 			
 			SlotCatenaDiMontaggio slotCatenaDiMontaggio3 = new SlotCatenaDiMontaggio(3L, "PMW", "Germany");
 			Automobile automobile5 = new Automobile(90L, "modello5", "telaio5",

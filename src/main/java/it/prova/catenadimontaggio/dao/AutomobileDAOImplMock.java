@@ -1,5 +1,5 @@
 package it.prova.catenadimontaggio.dao;
 
-public class AutomobileDAOImplMock {
+public class AutomobileDAOImplMock implements AutomobileDAO {
 
 }
