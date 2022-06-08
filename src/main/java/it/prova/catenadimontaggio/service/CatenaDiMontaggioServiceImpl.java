@@ -31,23 +31,23 @@ public class CatenaDiMontaggioServiceImpl implements CatenaDiMontaggioService {
 
 			System.out.println("Sto montando il telaio della macchina " + slotCatenaDiMontaggio.getBrand() + " "
 					+ automobile.getModello() + " ...");
-			telaioService.montaTelaio(automobile);
+			telaioService.montaTelaio();
 
 			System.out.println("Sto montando la carrozzeria della macchina " + slotCatenaDiMontaggio.getBrand() + " "
 					+ automobile.getModello() + " ...");
-			carrozzeriaService.montaCarrozzeria(automobile);
+			carrozzeriaService.montaCarrozzeria();
 
 			System.out.println("Sto montando l'impianto elettrico della macchina " + slotCatenaDiMontaggio.getBrand()
 					+ " " + automobile.getModello() + " ...");
-			impiantoElettricoService.montaImpiantoElettrico(automobile);
+			impiantoElettricoService.montaImpiantoElettrico();
 
 			System.out.println("Sto montando il motore della macchina " + slotCatenaDiMontaggio.getBrand() + " "
 					+ automobile.getModello() + " ...");
-			motoreService.montaMotore(automobile);
+			motoreService.montaMotore();
 
 			System.out.println("Sto effettuando la prova su strada con la macchina " + slotCatenaDiMontaggio.getBrand()
 					+ " " + automobile.getModello() + " ...");
-			provaSuStradaService.provaSuStrada(automobile);
+			provaSuStradaService.provaSuStrada();
 			
 			System.out.println();
 
